@@ -1,6 +1,21 @@
 # Python_ML_MLPClassifier
 Use MLPClassifier to do classification.
 
+# Process
+1.	Prepare data (remove duplicates, clean the data, handle missing values, fix data types).
+2.	Encode categorical variables: using Label Encoding for ordered categories and One-Hot Encoding for unordered categories.
+3.	Split the set into training and testing size (80%/20% split) to prevent any future data leakage.
+4.	Perform feature selection on the training set, assess the importance of different features using a feature importance plot, then apply the same selected features to the test set.
+5.	Perform feature scaling on the numerical features: fit the scaler on the training set, then transform the test set using the same parameters to avoid data leakage.
+6.	Train the model using the processed training data.
+7.	Fine-tune model using RandomizedSearchCV.
+8.	Explore two ensemble methods: Voting Classifier+Stacking Classifier
+9.	Evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC
+
+
+# Clean data
+
+# Select feature
 
 <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/3cb3138b-5857-4bda-b727-1945e90718e3" />
 
@@ -30,3 +45,11 @@ Final 24 features selected:
 22. Junction_Detail_Not at junction or within 20 metres_on
 23. Junction_Detail_Roundabout_on 
 24. Light_Conditions_Darkness - no lighting_on
+
+# Train Model and compare multi methods
+<img width="1789" height="985" alt="image" src="https://github.com/user-attachments/assets/bebba069-1d6f-4812-88c2-bc9447d954fb" />
+<img width="928" height="589" alt="image" src="https://github.com/user-attachments/assets/373b11d3-b1eb-4dbe-bd79-9b855388274f" />
+<img width="978" height="1546" alt="image" src="https://github.com/user-attachments/assets/689945c1-cc34-4230-80a4-51f19812e76d" />
+
+
+
