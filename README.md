@@ -51,5 +51,6 @@ Final 24 features selected:
 <img width="928" height="589" alt="image" src="https://github.com/user-attachments/assets/373b11d3-b1eb-4dbe-bd79-9b855388274f" />
 <img width="978" height="1546" alt="image" src="https://github.com/user-attachments/assets/689945c1-cc34-4230-80a4-51f19812e76d" />
 
+The best model is the Baseline MLP, MLPClassifier.
 
 
