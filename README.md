@@ -1,5 +1,5 @@
 # Python_ML_MLPClassifier
-Use MLPClassifier to do classification.
+This project is a classification case based on traffic accident data, which includes data cleaning, feature engineering, training and parameter tuning of multiple models (Baseline MLP, Tuned MLP, Bagging MLP, Voting Ensemble), and comparing and ranking the above four types of models according to metrics such as accuracy, precision, recall, F1-Score, and AUC.
 
 # Process
 1.	Prepare data (remove duplicates, clean the data, handle missing values, fix data types).
